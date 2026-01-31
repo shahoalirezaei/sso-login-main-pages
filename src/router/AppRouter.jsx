@@ -5,7 +5,7 @@ import ProtectedRoute from "../components/layout/ProtectedRoute";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sso-login-main-pages/">
       <Routes>
         <Route path="/login" element={<Login />} />
 
