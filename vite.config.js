@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/sso-login-main-pages/'
+  base: '/sso-login-main-pages'
 })
