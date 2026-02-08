@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
 const OTP_LENGTH = 5;
-const TOTAL_TIME = 30;    // کل تایمر (ثانیه)
-const PASSWORD_TIME = 7;  // پس از این مقدار (ثانیه) ورود با رمز ثابت فعال می‌شود
+const TOTAL_TIME = 150;    // کل تایمر (ثانیه)
+const PASSWORD_TIME = 60;  // پس از این مقدار (ثانیه) ورود با رمز ثابت فعال می‌شود
 const TEST_OTP = "12345";  // کد تستی برای OTP
 const TEST_PASSWORD = "1111"; // رمز ثابت تستی
 
